@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Registro</title>
+	</head>
+			<body>  
+				<h1>Registrese</h1>
+				<br><br>
+				<form action="archivo2.php" method="POST">   <!--a ese archivo se va a enviar la informacion del formulario, post = privado no se ve resaltada la informacion recolectada en la ruta-->
+					<Label for="nombre"> Nombre:</label>
+					<br>
+					<input type="text" name ="Nombre"/>    
+					<br><br>
+					<Label for="apellido">Apellido:</label>
+					<br>
+					<input type ="text" name="apellido"/> 
+					<br><br>
+					<Label for="Dni">DNI:</label>
+					<br>
+					<input type ="text" name="Dni"/> 
+					<br><br>
+					<Label for="Password">Password:</label>
+					<br>
+					<input type ="text" name="Password"/> 
+					<br><br>
+					
+						
+					</--combo-->
+					
+					<label for="Tipo de licencia"> Tipo de licencia </label>
+					<br>
+					<select id="licencia" name="licencia">
+						<option selected="selected" value="">Seleccionar</option>
+						<option value="Auto">Auto</option>
+						<option value="Moto">Moto</option>
+						<option value="Auto y Motos">Auto y Motos</option>
+						<option value="Profesional">Profesional</option>
+					</select>
+					<br><br>
+					
+					</--seleccionar archivo-->
+					<label for="foto"> Foto</label>
+					<br>
+					<input type="file"></input>					
+					<br><br>
+					
+					</--cHECK-->
+					<label for="Genero">Genero</label>
+					<br>
+					<input type="checkbox" value="Masculino"/>Masculino
+					<br>
+					<input type="checkbox" value="Femenino"/>Femenino
+					<br>
+					
+					<br><br>					
+					
+					</--Radio-->
+					<label for="acepta">Aceptar terminos y condiciones?</label>
+					<br>
+					<input type="radio" name="si" value="acepta" checked="checked"/>Si </--checked =checked (opcion del checked seleccionada por defecto)-->
+					<input type="radio" name="no" value="noacepta" />No
+					<br><br>	
+					
+					<input type ="submit" value="Enviar"/>
+				</form>
+			</body>
+</html>
+	

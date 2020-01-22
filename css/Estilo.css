@@ -1,0 +1,12 @@
+h2{color: green;}
+.cuerpo{width: 900px;
+		height: 600px;
+		background-color: gray;
+		margin: 0 auto; /*centrar div*/
+}    /*comentario*/
+		
+.cuerpo p {color: white;}
+
+.cuerpo h2{ color: red;
+			text-align: center;
+}
